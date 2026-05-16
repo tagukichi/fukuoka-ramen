@@ -202,8 +202,8 @@ ul {
 
 .hero-inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  grid-template-columns: 2fr 3fr;
+  gap: 24px;
   align-items: center;
   max-width: 1400px;
   margin: 0 auto;
@@ -255,7 +255,7 @@ ul {
 .hero-image {
   border-radius: var(--radius);
   overflow: hidden;
-  aspect-ratio: 4/3;
+  aspect-ratio: 3/2;
 }
 
 /* ========================================
